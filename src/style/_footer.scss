@@ -1,0 +1,13 @@
+@import './variables';
+
+.footerContainer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:$base-light-grey;
+  color: $base-black-color;
+  text-align: center;
+  padding: 10px 0;
+  height: 34px;
+}

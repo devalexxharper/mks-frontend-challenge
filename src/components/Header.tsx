@@ -1,5 +1,5 @@
-import React from "react"
 import '../style/_header.scss'
+import Minicart from '../assets/minicart.svg'
 
 const Header = () => {
 
@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         <div className="minicartButtonContainer">
           <button className="minicartButtonItem">
-            <img src="" alt="" />
+            <img src={Minicart} alt="Add to cart" className='minicartButtonIcon' />
             <span className="minicartCounter">0</span>
           </button>
         </div>

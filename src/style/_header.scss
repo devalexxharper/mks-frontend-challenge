@@ -13,6 +13,7 @@
   justify-content: space-between;
   padding: 5px 20px;
   position: fixed;
+  z-index: 11;
 }
 
 .headerLogo{
@@ -67,7 +68,17 @@
 .minicartCounter{
   font-size: 14px;
   font-weight: $base-weight-700;
+}
 
+.minicartWrapper{
+  position: absolute;
+  background-color: $base-primary-color;
+  right: 32px;
+  top: 0;
+  max-width: 400px;
+  width: auto;
+  height: 100vh;
+  z-index: 1000;
 }
 
 

@@ -1,0 +1,49 @@
+@import './variables';
+
+.minicartContainer{
+  position: relative !important;
+  margin: 24px 32px;
+  background-color: $base-primary-color;
+  height: 100%;
+}
+
+.minicartHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 28px;
+}
+
+.minicartHeaderTitle{
+  font-size: 27px;
+  font-weight: $base-weight-700;
+  width: 178px;
+  color: $base-light-color;
+  word-break: normal;
+}
+
+.closeCartIcon{
+  background-color: $base-black-color;
+  border: none;
+  outline: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  color: $base-light-color;
+  font-size: 32px;
+  align-content: center;
+}
+
+.minicartBody{
+  flex: 1;
+  display: flex;
+}
+
+.minicartFooter{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  max-width: 400px;
+  width: 100%;
+}

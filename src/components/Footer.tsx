@@ -2,6 +2,7 @@ import '../style/_footer.scss'
 
 const Footer = () => {
 
+
   return (
     <>
       <footer className='footerContainer'>

@@ -8,6 +8,14 @@
   background-color:$base-light-grey;
   color: $base-black-color;
   text-align: center;
-  padding: 10px 0;
   height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContentText{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
 }
